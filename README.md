@@ -1,6 +1,6 @@
 # About Me
 
-I am a Computer Science student at West Pomeranian University of Technology in Szczecin, currently looking for a software engineering internship or an entry-level junior role. 
+I am a Computer Science student at West Pomeranian University of Technology in Szczecin, currently looking for a software engineering internship or an entry-level junior role.
 
 I like building things that connect backend logic, mobile features, and hardware components. Lately, I have been shifting most of my focus toward full-stack development with Java and Spring.
 
@@ -8,35 +8,44 @@ I like building things that connect backend logic, mobile features, and hardware
 
 ## Tech Stack & Tools
 
-* Backend: Java (OOP), Spring Boot, REST APIs, JSON, Postman
-* Databases: SQL, MySQL, MariaDB, PHPMyAdmin
-* Mobile & Web: Android Studio (Java, XML), Firebase, HTML, CSS
-* Other: C/C++, C#, Python, Git
+* **Backend:** Java (OOP), Spring Boot, REST APIs, JSON, Postman
+* **Databases:** SQL, MySQL, MariaDB, H2, JPA/Hibernate
+* **Mobile & Web:** Android Studio (Java, XML), Firebase, HTML, CSS
+* **Testing:** JUnit 5, Mockito
+* **Other:** C/C++, C#, Python, Git, Arduino, PlatformIO
 
 ---
 
 ## Key Projects
 
 ### Multikino - Cinema Ticket Reservation System
-A lightweight REST API I built with Spring Boot 3.2.5 and Java 17. I implemented real-time seat validation, meaning the system checks room capacity before confirming any booking. It also includes automatic seat restoration upon cancellation (PATCH requests) and handles standard database operations using Spring Data JPA. Tested with JUnit 5 and Mockito.
+A REST API I built with Spring Boot 3.2.5 and Java 17. Handles movies, screenings, users, and reservations with 20+ endpoints. The system checks seat availability before confirming any booking and restores seats automatically on cancellation. Tested with JUnit 5 and Mockito (7 unit tests). Full endpoint documentation with Postman examples in the README.
+
+Repo: [multikino-rest-api](https://github.com/ta56419/multikino-rest-api)
+
+### WiWav - PUTCyberDays Hackathon
+IoT/embedded project built during the PUTCyberDays Hackathon (April 2026). A device with Bluetooth, NFC, RF, and WiFi scanning capabilities, web server interface, keypad and display. Built with C++ on PlatformIO. Includes PCB design.
+
+Repo: [WiWav](https://github.com/ta56419/WiWav)
 
 ### AB-Fit - Gym Management App
-An Android mobile application designed to help with gym administration. It handles user subscriptions, payment statuses, and workout statistics, all integrated with a Firebase cloud database.
+An Android mobile app for gym administration. Handles user subscriptions, payment statuses, and workout statistics, all integrated with a Firebase cloud database.
 
 ### Lazior Rover Project
-Worked with a technical team on a robotic rover. My tasks included preparing 3D models and DXF files in Autodesk Fusion 360, optimizing parts for 3D printing, helping with mechanical assembly, and running motor tests using STM32 Nucleo.
+Worked with a team on a robotic rover. Prepared 3D models and DXF files in Autodesk Fusion 360, optimized parts for 3D printing, helped with mechanical assembly, and ran motor tests using STM32 Nucleo.
 
 ---
 
-## Background & Info
+## Background
 
-* Education: Engineering degree in Computer Science Systems (In progress, 2023 - Present)
-* Experience: Tech support and programming internship at Softservice Technologies
-* Languages: Ukrainian (Native), English (B2), Polish (B1/B2)
+* **Education:** B.Eng. Computer Science - Information Systems Engineering, ZUT Szczecin (2023 - present)
+* **Internship:** Developer support at SOFTSERVICE TECHNOLOGIES LTD (Sep - Dec 2025)
+* **Languages:** Ukrainian (native), English (B2), Polish (B1/B2)
 
 ---
 
-## Contact
+## Links
 
-* Email: andriy.tynskiy.school91@gmail.com
-* LinkedIn: https://www.linkedin.com/in/andrii-tynskyi-a77656394/
+* **Portfolio:** [ta56419.github.io](https://ta56419.github.io)
+* **LinkedIn:** [linkedin.com/in/andrii-tynskyi-a77656394](https://www.linkedin.com/in/andrii-tynskyi-a77656394/)
+* **Email:** andriy.tynskiy.school91@gmail.com
