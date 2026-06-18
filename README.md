@@ -53,5 +53,5 @@ Worked with a team on a robotic rover. Prepared 3D models and DXF files in Autod
 ## Links
 
 * **Portfolio:** [ta56419.github.io](https://ta56419.github.io)
-* **LinkedIn:** [linkedin.com/in/andrii-tynskyi-a77656394](https://www.linkedin.com/in/andrii-tynskyi-a77656394/)
+* **LinkedIn:** [linkedin.com/in/andrii-tynskyi](https://www.linkedin.com/in/andrii-tynskyi/)
 * **Email:** andriy.tynskiy.school91@gmail.com
