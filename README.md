@@ -1,57 +1,56 @@
-# About Me
+# Andrii Tynskyi
 
-I am a Computer Science student at West Pomeranian University of Technology in Szczecin, currently looking for a software engineering internship or an entry-level junior role.
+Junior AI & Software Engineer | Computer Science student at ZUT, Szczecin
 
-I like building things that connect backend logic, mobile features, and hardware components. Lately, I have been shifting most of my focus toward backend and full-stack development with Java, Spring Boot, and PHP.
+I build practical software with Python and Java. My current focus is AI/ML, document search, LLM evaluation and backend development. I also work on REST APIs and applications.
 
----
+I’m open to junior opportunities and collaboration on useful software projects.
 
-## Tech Stack & Tools
+## Projects
 
-* **Backend:** Java (OOP), Spring Boot, PHP 8 (custom MVC), REST APIs, JSON, Postman
-* **Databases:** SQL, MySQL, MariaDB, H2, JPA/Hibernate, PDO
-* **Mobile & Web:** Android Studio (Java, XML), Firebase, HTML, CSS, LESS
-* **Testing:** JUnit 5, Mockito
-* **DevOps:** Docker, Docker Compose
-* **Other:** C/C++, C#, Python, Git, Arduino, PlatformIO
+### [AI Docs Agent](https://github.com/ta56419/ai-docs-agent)
+A document assistant that finds relevant passages and answers with source citations. Built with Python, SQLite FTS5/BM25 and an LLM.
 
----
+In my own tests, the expected source appeared in the top three results for all 19 queries. Finding information took about 40% less time than manual search. These results come from a small synthetic test corpus, not a production benchmark.
 
-## Key Projects
+### [Customer Churn ML Platform](https://github.com/ta56419/customer-churn-ml-platform)
+A small end-to-end machine learning project: data validation, preprocessing, model training and a FastAPI prediction endpoint. Built with Python, pandas and scikit-learn.
 
-### PlusFlix - Movie Catalog Web App
-Full-stack web app for browsing movies, filtering by genre/platform, leaving reviews, and managing favorites. Built on a custom PHP MVC framework (ActiveRecord ORM, front controller, templating) with MySQL in Docker. Three CSS themes, admin panel, AJAX favorites.
+On a 200-record holdout from a synthetic 800-record dataset, the model reached 74.38% ROC-AUC, 81.93% recall and 58.62% precision. The dataset is synthetic, so these figures do not represent real customer outcomes.
 
-**Repo:** [plusflix](https://github.com/ta56419/plusflix)
+### [LLM Eval Security Lab](https://github.com/ta56419/llm-eval-security-lab)
+A lightweight evaluation tool for checking citations, unsupported claims, refusal behavior and prompt-injection cases. It produces JSON reports and can run in CI. The included cases are synthetic, and the checks are intended as a practical first pass rather than a substitute for human review.
 
-### Multikino - Cinema Ticket Reservation API
-A REST API built with Spring Boot 3.2.5 and Java 17. Handles movies, screenings, users, and reservations with 20+ endpoints. Seat availability validation before booking, automatic seat restoration on cancellation. Tested with JUnit 5 and Mockito (7 unit tests).
+### [Multikino REST API](https://github.com/ta56419/multikino-rest-api)
+A cinema booking API built with Java 17 and Spring Boot. It includes more than 20 endpoints, seat availability checks and tests with JUnit and Mockito.
 
-**Repo:** [multikino-rest-api](https://github.com/ta56419/multikino-rest-api)
+## Technologies
 
-### WiWav - PUTCyberDays Hackathon
-IoT/embedded project built during the PUTCyberDays Hackathon (April 2026). A device with Bluetooth, NFC, RF, and WiFi scanning capabilities, web server interface, keypad and display. Built with C++ on PlatformIO. Includes PCB design.
+- **AI/ML:** Python, pandas, scikit-learn, RAG, SQLite FTS5/BM25, LLM tool calling
+- **Backend:** Java, Spring Boot, FastAPI, PHP, REST APIs
+- **Data:** SQL, SQLite, MySQL, H2
+- **Tools:** Git, Docker, GitHub Actions, Postman, JUnit, Mockito
+- **Other:** Android, Firebase, C++, Arduino
 
-**Repo:** [WiWav](https://github.com/ta56419/WiWav)
+## Experience
 
-### AB-Fit - Gym Management App
-An Android mobile app for gym administration. Handles user subscriptions, payment statuses, and workout statistics, all integrated with a Firebase cloud database.
+**SOFTSERVICE TECHNOLOGIES LTD — Developer Support Intern**  
+September–December 2025
 
-### Lazior Rover Project
-Worked with a team on a robotic rover. Prepared 3D models and DXF files in Autodesk Fusion 360, optimized parts for 3D printing, helped with mechanical assembly, and ran motor tests using STM32 Nucleo.
+Worked with the development team on programming tasks and technical documentation, and supported the team’s ongoing work.
 
----
+## Education
 
-## Background
+**B.Eng. Computer Science — Information Systems Engineering**  
+West Pomeranian University of Technology in Szczecin (ZUT), 2023–present
 
-* **Education:** B.Eng. Computer Science - Information Systems Engineering, ZUT Szczecin (2023 - present)
-* **Internship:** Developer support at SOFTSERVICE TECHNOLOGIES LTD (Sep - Dec 2025)
-* **Languages:** Ukrainian (native), English (B2), Polish (B1/B2)
+## Languages
 
----
+Ukrainian (native) · English (B2) · Polish (B1/B2)
 
 ## Links
 
-* **Portfolio:** [ta56419.github.io](https://ta56419.github.io)
-* **LinkedIn:** [linkedin.com/in/andrii-tynskyi](https://www.linkedin.com/in/andrii-tynskyi/)
-* **Email:** andriy.tynskiy.school91@gmail.com
+- [Portfolio](https://tynskyi.pl)
+- [LinkedIn](https://www.linkedin.com/in/andrii-tynskyi/)
+- [Email](mailto:andrii@tynskyi.pl)
+- [GitHub](https://github.com/ta56419)
