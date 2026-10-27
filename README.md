@@ -2,24 +2,24 @@
 
 Junior AI & Software Engineer | Computer Science student at ZUT, Szczecin
 
-I build practical software with Python and Java. My current focus is AI/ML, document search, LLM evaluation and backend development. I also work on REST APIs and applications.
+I study Computer Science at ZUT in Szczecin and work on projects in Python and Java. Recently I've been learning more about machine learning, document search and LLM applications. I also build backend APIs.
 
-I’m open to junior opportunities and collaboration on useful software projects.
+I'm open to work and collaboration on software projects.
 
 ## Projects
 
 ### [AI Docs Agent](https://github.com/ta56419/ai-docs-agent)
 A document assistant that finds relevant passages and answers with source citations. Built with Python, SQLite FTS5/BM25 and an LLM.
 
-In my own tests, the expected source appeared in the top three results for all 19 queries. Finding information took about 40% less time than manual search. These results come from a small synthetic test corpus, not a production benchmark.
+Includes offline tests and a retrieval evaluation with 19 questions on the sample documents.
 
 ### [Customer Churn ML Platform](https://github.com/ta56419/customer-churn-ml-platform)
 A small end-to-end machine learning project: data validation, preprocessing, model training and a FastAPI prediction endpoint. Built with Python, pandas and scikit-learn.
 
-On a 200-record holdout from a synthetic 800-record dataset, the model reached 74.38% ROC-AUC, 81.93% recall and 58.62% precision. The dataset is synthetic, so these figures do not represent real customer outcomes.
+Uses synthetic data to practise the training and prediction workflow.
 
 ### [LLM Eval Security Lab](https://github.com/ta56419/llm-eval-security-lab)
-A lightweight evaluation tool for checking citations, unsupported claims, refusal behavior and prompt-injection cases. It produces JSON reports and can run in CI. The included cases are synthetic, and the checks are intended as a practical first pass rather than a substitute for human review.
+A small Python tool that checks saved model answers for source citations, expected refusals and prompt-injection cases. It exports a JSON report and can run in CI. The checks are simple rules, so answers still need review.
 
 ### [Multikino REST API](https://github.com/ta56419/multikino-rest-api)
 A cinema booking API built with Java 17 and Spring Boot. It includes more than 20 endpoints, seat availability checks and tests with JUnit and Mockito.
